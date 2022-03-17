@@ -54,7 +54,6 @@ public class Exercicio01 {
 		return obteveMinimaTotal && obteveNotaMinimaPorMateria;
 	}
 
-	
 	static void exibeResultado (double notaDePortugues, double notaDeMatematica, boolean obteveNotasSuficientes, double somaTotal) {
 		
 		if (obteveNotasSuficientes) {			
