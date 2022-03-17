@@ -55,7 +55,6 @@ public class Exercicio01 {
 	}
 
 	static void exibeResultado (double notaDePortugues, double notaDeMatematica, boolean obteveNotasSuficientes, double somaTotal) {
-		
 		if (obteveNotasSuficientes) {			
 				JOptionPane.showMessageDialog(null,"PARABÉNS VOCÊ PONTUOU " + somaTotal +". ESTÁ APROVADO!");
 		} else {
