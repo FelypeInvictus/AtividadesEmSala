@@ -14,9 +14,9 @@ public class Exercicio01 {
 	 * candidato se ele conseguiu ou não.
 	 */
 
-	static final double NOTA_MINIMA_DE_PORTUGUES = 60;
-	static final double NOTA_MINIMA_DE_MATEMATICA = 60;
-	static final double NOTA_MINIMA_TOTAL = 150;
+	static final byte NOTA_MINIMA_DE_PORTUGUES = 60;
+	static final byte NOTA_MINIMA_DE_MATEMATICA = 60;
+	static final int NOTA_MINIMA_TOTAL = 150;
 
 	public static void main(String[] args) {
 
