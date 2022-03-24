@@ -30,7 +30,7 @@ public class Exercicio01 {
 	}
 	
 	static double perguntaNotaDePortugues () {
-		return Double.parseDouble(JOptionPane.showInputDialog("CALCULE SUAS NOTAS DE PORTUGU�S E MATEMATICA \n\n\nDIGITE SUA NOTA DE PORTUGU�S:"));
+		return Double.parseDouble(JOptionPane.showInputDialog("CALCULE SUAS NOTAS DE PORTUGUÊS E MATEMATICA \n\n\nDIGITE SUA NOTA DE PORTUGU�S:"));
 	}
 	
 	static double perguntaNotadeDeMatematica() {
@@ -49,19 +49,19 @@ public class Exercicio01 {
 		return somaTotal >= NOTA_MINIMA_TOTAL;
 	}
 	
-	static void exibePositivo(double somaTotal) {
-		JOptionPane.showMessageDialog(null,"PARABÉNS VOCÊ PONTUOU " + somaTotal +". FOI APROVADO!");
-	}
-	
-	static void exibeNegativo() {
-		JOptionPane.showMessageDialog(null, "INFELIZMENTE VOCÊ NÃO ATINGIU A NOTA MINIMA PARA SER APROVADO.");
-	}
-	
 	static void exibeResultado (boolean obteveMinimaTotal, boolean obteveNotaMinimaPorMateria, double somaTotal) {
 		if (obteveMinimaTotal && obteveNotaMinimaPorMateria) {	
 			exibePositivo(somaTotal);
 		} else {
 			exibeNegativo();
 		}
+	}
+	
+	static void exibePositivo(double somaTotal) {
+		JOptionPane.showMessageDialog(null,"PARABÉNS VOCÊ PONTUOU " + somaTotal +". FOI APROVADO!");
+	}
+	
+	static void exibeNegativo() {
+		JOptionPane.showMessageDialog(null, "INFELIZMENTE VOCÊ NÃO ATINGIU A NOTA MINIMA PARA SER APROVADO.");
 	}
 }
