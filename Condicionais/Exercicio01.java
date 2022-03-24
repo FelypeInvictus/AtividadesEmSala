@@ -32,7 +32,7 @@ public class Exercicio01 {
 		try {
 		return Double.parseDouble(JOptionPane.showInputDialog("CALCULE SUAS NOTAS DE PORTUGUÊS E MATEMATICA \n\n\nDIGITE SUA NOTA DE PORTUGUÊS:"));
 		} catch (NumberFormatException e) {
-			System.exit(0); //Caso a variavel não receber nenhum dado, o programa será encerrado
+			System.exit(0); //Caso não receber nenhum dado, o programa será encerrado
 		} catch (NullPointerException e) {
 			System.exit(0); //Caso o usuario cancelar, o programa será encerrado
 		}
@@ -44,7 +44,7 @@ public class Exercicio01 {
 		try {
 		return Double.parseDouble(JOptionPane.showInputDialog("DIGITE SUA NOTA DE MATEMATICA:"));
 		} catch (NumberFormatException e) {
-			System.exit(0); //Caso a variavel não receber nenhum dado, o programa será encerrado
+			System.exit(0); //Caso não receber nenhum dado, o programa será encerrado
 		} catch (NullPointerException e) {
 			System.exit(0); //Caso o usuario cancelar, o programa será encerrado
 		}
